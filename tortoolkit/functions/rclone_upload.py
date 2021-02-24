@@ -3,7 +3,7 @@
 
 import os,subprocess,logging,re,time,json,traceback
 from telethon.tl.types import KeyboardButtonUrl
-from tortoolkit-TorrentGenerator_Bot import SessionVars
+from tortoolkit import SessionVars
 import asyncio as aio
 import aiohttp
 from requests.utils import requote_uri
