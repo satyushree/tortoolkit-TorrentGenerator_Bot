@@ -270,18 +270,18 @@ async def set_priority(request):
 
 @routes.get('/')
 async def homepage(request):
-    return web.Response(text="<h1>See TorTookit <a href=\"#\">@GitHub</a> By YashDK</h1>",content_type="text/html")
+    return web.Response(text="<h1>See Torrent Generator Bot <a href=\"#\">@GitHub</a> By ꧁★HACKER★꧂</h1>",content_type="text/html")
 
 async def e404_middleware(app, handler):
   async def middleware_handler(request):
       try:
           response = await handler(request)
           if response.status == 404:
-              return web.Response(text="<h1>404: Page not found</h2><br><h3>Tortoolkit</h3>",content_type="text/html")
+              return web.Response(text="<h1>404: Page not found</h2><br><h3>Torrent Generator Bot</h3>",content_type="text/html")
           return response
       except web.HTTPException as ex:
           if ex.status == 404:
-              return web.Response(text="<h1>404: Page not found</h2><br><h3>Tortoolkit</h3>",content_type="text/html")
+              return web.Response(text="<h1>404: Page not found</h2><br><h3>Torrent Generator Bot</h3>",content_type="text/html")
           raise
   return middleware_handler
 
