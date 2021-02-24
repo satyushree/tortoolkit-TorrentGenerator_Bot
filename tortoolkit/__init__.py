@@ -10,7 +10,7 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(),logging.FileHandler("torlog.txt")]
 )
 
-from tortoolkit.core.wserver import start_server
+from tortoolkit-TorrentGenerator_Bot.core.wserver import start_server
 from .core.database_handle import TtkUpload,TorToolkitDB,TtkTorrents, UserDB
 from .core.varholdern import VarHolder
 import time
