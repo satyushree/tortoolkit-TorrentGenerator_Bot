@@ -159,6 +159,7 @@ async def handle_ytdl_command(e: MessageLike):
         return
     msg = await e.get_reply_message()
     msg1 = await e.reply("Processing the given link.....")
+    msg2 = await e.reply("Please Wait /n Join @All_Movie_Rockers")
     if msg.text.find("http") != -1:
         res, err = await create_quality_menu(msg.text.strip(),msg1,msg)
         if res is None:
