@@ -3,7 +3,7 @@
 
 from telethon.tl.types import KeyboardButtonCallback,KeyboardButton
 from telethon import events
-from tortoolkit import SessionVars
+from tortoolkit-TorrentGenerator_Bot import SessionVars
 import asyncio as aio
 from .getVars import get_val
 from .database_handle import TorToolkitDB
