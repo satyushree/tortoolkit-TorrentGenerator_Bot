@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from telethon import TelegramClient
-from tortoolkit.core.HandleManager import add_handlers
-from tortoolkit.core.getVars import get_val
+from tortoolkit-TorrentGenerator_Bot.core.HandleManager import add_handlers
+from tortoolkit-TorrentGenerator_Bot.core.getVars import get_val
 import logging,asyncio
-from tortoolkit.core.wserver import start_server_async
+from tortoolkit-TorrentGenerator_Bot.core.wserver import start_server_async
 from pyrogram import Client
 try:
-    from tortoolkit.functions.rstuff import get_rstuff
+    from tortoolkit-TorrentGenerator_Bot.functions.rstuff import get_rstuff
 except ImportError:pass
 
-from tortoolkit.ttk_client import TortkClient
+from tortoolkit-TorrentGenerator_Bot.ttk_client import TortkClient
 
 if __name__ == "__main__":
 
