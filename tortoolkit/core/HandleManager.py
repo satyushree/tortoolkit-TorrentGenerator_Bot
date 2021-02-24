@@ -655,10 +655,10 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkit</code>\n"
+        "<b>Name</b>: <code>Torrent Generator bot</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
-        "<b>Created By</b>: @yaknight\n\n"
+        "<b>Created By</b>: @shreevish\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -671,10 +671,7 @@ async def about_me(message):
         "\n"
         f"<b>Latest {__version__} Changelog :- </b>\n"
         "Uploads To TG will be Fast AF.\n"
-        "Integrated Pyrogram.\n"
         "Added EXPRESS UPLOAD option to settings. (On by defailt)\n"
-        "Fixed some config errors.\n"
-        "Zeet Web Support added.\n"
         "Direct links optimized and not gives exact errors.\n"
         "Glitches of the torrent not getting added fixed forever.\n"
     )
