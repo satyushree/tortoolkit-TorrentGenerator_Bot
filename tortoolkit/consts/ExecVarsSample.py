@@ -17,7 +17,7 @@ except:
         ALD_USR = [1087968824,-1001485521459,1243382770]
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = "https://shree.satyu.workers.dev"
+        GD_INDEX_URL = "https://shree.satyu.workers.dev" # https://myleech.satyu.workers.dev
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
