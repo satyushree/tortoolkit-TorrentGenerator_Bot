@@ -39,6 +39,9 @@ Following are some awesome features offered by this bot:-
 ### For Heroku users New repo will come soon (This repo will not work on heroku)
 [![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://telegra.ph/Heroku-TorToolkit-01-18)
 
+##***Vercel***
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/satyushree/tortoolkit-TorrentGenerator_Bot)
+
 ## ***Zeet***
 According to me, this platform provides resources that are enough for a genuine user and by default prevents Abuse:
 Click the logo to see the video guide to see how to deploy. The web is not yet available but soon will be available on Zeet.
